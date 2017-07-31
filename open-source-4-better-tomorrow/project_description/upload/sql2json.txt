@@ -1,0 +1,57 @@
+{
+  "project_info" : {
+    "containerSelector" : ".open_source",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "SQL2JSON"
+  },
+  "project_language" : {
+    "containerSelector" : ".project_language .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "T-SQL"
+  },
+  "project_version" : {
+    "containerSelector" : ".project_version .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "v4"
+  },
+  "project_availability" : {
+    "containerSelector" : ".project_availability .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "[ released ]"
+  },
+  "project_description" : {
+    "containerSelector" : ".project_description",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "This algorithm converts SQL table data to JSON object.<br />It does exactly the opposite to JSON2SQL.<br />More to follow soon."
+  },
+  "project_history_1" : {
+    "containerSelector" : ".project_history .value a",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "SQL2JSON"
+  },
+  "project_history_2" : {
+    "containerSelector" : ".project_history .value a",
+    "propertyName" : "href",
+    "propertyValue" : "https://github.com/Dabrowski-Software-Development/SoftwareDevelopment-T-SQL-2/blob/master/README.md"
+  },
+  "project_history_3" : {
+    "containerSelector" : ".project_history .value a",
+    "propertyName" : "target",
+    "propertyValue" : "_blank"
+  },
+  "project_download_1" : {
+    "containerSelector" : ".project_download .value a",
+    "propertyName" : "href",
+    "propertyValue" : "/open-source-4-better-tomorrow/project_description/download/Sql2Json.zip"
+  },
+  "project_download_2" : {
+    "containerSelector" : ".project_download .value a",
+    "propertyName" : "download",
+    "propertyValue" : "Sql2Json___ALL.zip"
+  },  
+  "project_update" : {
+    "containerSelector" : ".project_update .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "2017-04-04 21:50:00 GMT +01:00"
+  }
+}

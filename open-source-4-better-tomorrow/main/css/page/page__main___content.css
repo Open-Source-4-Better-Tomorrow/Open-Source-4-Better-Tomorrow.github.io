@@ -1,0 +1,112 @@
+.content {
+    position: relative;
+    
+    width: 99%;
+    height: 139em;
+
+    background-color: #616161;
+
+    margin: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.json2sql {
+    position: relative;
+    top: 10%;
+
+    background-color: #43a047;
+
+    width: 90%;
+	height: 25em;
+
+    background-size: 250px 200px;
+	background-image: url('/open-source-4-better-tomorrow/main/images/json2sql.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    cursor: pointer;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;    
+}
+
+.sql2json {
+    position: relative;
+    top: 15%;
+
+    background-color: #43a047;
+
+    width: 90%;
+	height: 25em;
+
+    background-size: 250px 200px;
+	background-image: url('/open-source-4-better-tomorrow/main/images/sql2json.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    cursor: pointer;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+.sql2sql {
+    position: relative;
+    top: 20%;
+
+    background-color: #1976d2;
+
+    width: 90%;
+	height: 25em;
+
+    background-size: 250px 200px;
+	background-image: url('/open-source-4-better-tomorrow/main/images/sql2sql.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    cursor: pointer;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+.project_website {
+    position: relative;
+    top: 25%;
+
+    background-color: #1976d2;
+
+    width: 90%;
+	height: 25em;
+
+    background-size: 250px 200px;
+	background-image: url('/open-source-4-better-tomorrow/main/images/d-s-d.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    cursor: pointer;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+.json2sql, .sql2json, .sql2sql, .project_website {
+    border-style: outset;
+}
+
+.json2sql, .sql2json   {
+    border-color: #43a047;
+}
+
+.sql2sql, .project_website   {
+    border-color: #1976d2;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Software of Tomorrow powered by people with ideas for people with ideas" />
+  <title>Open Source Software 4 Better Tomorrow of many people. Powered by Dabrowski Software Development &amp; friends</title>
+  <script src="js/external-libraries/jquery-3.2.1.min.js"></script>
+  <script src="js/project-libraries/browser-utility-1.0.3.js"></script>
+  <script src="js/project-libraries/js-utilities-1.0.0.js"></script>
+  <script src="js/project-helpers/module-helper-main.js"></script>
+  <script src="js/modules/domainInfo.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Orbitron" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" type="text/css" href="css/loaders/mainLoader.css" />
+  <link rel="icon" href="/favicon.ico" />
+ </head>
+<body onload="domainInfo.loadApplicationModule();">
+	 <div class="page">
+		<div class="header">
+			<div class="logo"></div>
+			<div class="leading_thought">
+				<span class="open_source">open source</span>
+				<span class="four_better_tomorrow">4 better tomorrow</span>			
+			</div>
+			<div class="motto">
+				<div class="idea">lifelong support provided by</div>
+				<div class="idea_supported_by"></div>
+			</div>			 
+		</div>
+		<div class="main">
+			<div class="content">
+				<div class="json2sql" onclick="domainInfo.handleClick('.json2sql');"></div>
+				<div class="sql2json" onclick="domainInfo.handleClick('.sql2json');"></div>
+				<div class="sql2sql" onclick="domainInfo.handleClick('.sql2sql');"></div>
+				<div class="project_website" onclick="domainInfo.handleClick('.project_website');"></div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer_content_header">
+				<span class="footer_content_inline copyright">&copy;</span>
+				<span class="footer_content_inline year"><script>document.write(moduleHelperMain.getCopyrightYear());</script></span>
+			</div>
+			<div class="footer_content_footer">
+				<span class="footer_content_inline registered">&#174;</span>
+				<span class="footer_content_inline explanation"><script>document.write(moduleHelperMain.getRegisteredExplanation());</script></span>
+			</div>			
+		</div>	    
+	 </div>
+    <script src="js/modules/my-google-analytics.js"></script>	
+</body>
+</html>

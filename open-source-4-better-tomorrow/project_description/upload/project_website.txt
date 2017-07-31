@@ -1,0 +1,57 @@
+{
+  "project_info" : {
+    "containerSelector" : ".open_source",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "PROJECT WEBSITE"
+  },
+  "project_language" : {
+    "containerSelector" : ".project_language .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "HTML5/CSS3/JavaScript"
+  },
+  "project_version" : {
+    "containerSelector" : ".project_version .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "v19.1"
+  },
+  "project_availability" : {
+    "containerSelector" : ".project_availability .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "[ released ]"
+  },
+  "project_description" : {
+    "containerSelector" : ".project_description",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "This is official open source website of D-S-D.<br />It is being run based on MIT license.<br />More to follow soon."
+  },
+  "project_history_1" : {
+    "containerSelector" : ".project_history .value a",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "D-S-D"
+  },
+  "project_history_2" : {
+    "containerSelector" : ".project_history .value a",
+    "propertyName" : "href",
+    "propertyValue" : "https://github.com/Dabrowski-Software-Development/Dabrowski-Software-Development.github.io"
+  },
+  "project_history_3" : {
+    "containerSelector" : ".project_history .value a",
+    "propertyName" : "target",
+    "propertyValue" : "_blank"
+  },
+  "project_download_1" : {
+    "containerSelector" : ".project_download .value a",
+    "propertyName" : "href",
+    "propertyValue" : "https://github.com/Dabrowski-Software-Development/Dabrowski-Software-Development.github.io/archive/master.zip"
+  },
+  "project_download_2" : {
+    "containerSelector" : ".project_download .value a",
+    "propertyName" : "download",
+    "propertyValue" : "Project_Website___ALL.zip"
+  },
+  "project_update" : {
+    "containerSelector" : ".project_update .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "2017-07-31 17:23:00 GMT +01:00"
+  }
+}

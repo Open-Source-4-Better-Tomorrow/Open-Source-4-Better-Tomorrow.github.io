@@ -1,0 +1,142 @@
+.content {
+    position: absolute;
+    
+    width: 98%;
+    height: 139em;
+
+    background-color: #424242;
+
+    color: whitesmoke;
+    font-family: "Open Sans";
+
+    margin: 1%;
+
+    text-align: center;
+}
+
+.project_language {
+    position: absolute;
+    top: 1%;
+
+    width: 100%;
+    height: 1.5em;
+
+    font-size: 4em;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_version {
+    position: absolute;
+    top: 8%;
+
+    height: 1.5em;
+    width: 100%;
+
+    font-size: 4em;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_availability {
+    position: absolute;
+    top: 15%;
+
+    width: 100%;
+    height: 1.5em;
+
+    font-size: 4em;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_description {
+    position: absolute;
+    float: left;
+    left: 1%;
+    top: 22%;
+
+    width: 100%;
+    height: 50em;
+
+    font-size: 1.5em;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: left;
+}
+
+.project_history {
+    position: absolute;
+    top: 78.5%;
+
+    width: 100%;
+    height: 1.5em;
+
+    font-size: 4em;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_download {
+    position: absolute;
+    top: 85.5%;
+
+    width: 100%;
+    height: 1.5em;
+
+    font-size: 4em;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_update {
+    position: absolute;
+    top: 92.5%;
+
+    width: 100%;
+    height: 1.5em;
+
+    font-size: 4em;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.key {
+    position: relative;
+    float: left;
+    left: 0.5%;
+}
+
+.value {
+    position: relative;
+    float: right;
+    right: 0.5%;
+}
+
+a {
+    position: relative;
+
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #757575;
+
+    text-decoration: none;
+}
+
+.material-icons {
+    position: relative; 
+
+    font-size: 1em;
+
+    margin-top: 30%;
+}

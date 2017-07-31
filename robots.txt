@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /open-source-4-better-tomorrow/main/css/
+Disallow: /open-source-4-better-tomorrow/main/images/
+Disallow: /open-source-4-better-tomorrow/project_description/css/
+Disallow: /open-source-4-better-tomorrow/project_description/images/
+Sitemap: https://github.com/Open-Source-4-Better-Tomorrow/Open-Source-4-Better-Tomorrow.github.io/blob/master/sitemap.xml
