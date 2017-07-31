@@ -83,7 +83,7 @@
 
     function setProjectContext_Internal() {
         var openSourceProject_Id_Attr = sessionStorage.getItem(_openSource);
-        openSourceProject_Id_Attr = openSourceProject_Id_Attr.substring(1).toUpperCase();
+        openSourceProject_Id_Attr = openSourceProject_Id_Attr.substring(1).toLowerCase();
         
         // set context for being used only if config file uses flat file storage, otherwise it has no effect
         _moduleDOM_Object.use_flat_file_storage_view_bag_data = true;
