@@ -40,3 +40,15 @@
     float: left;
     left: 6%;
 }
+
+.download {
+    position: relative;
+    float: right;
+    right: 1%;
+
+    cursor: pointer;
+}
+
+.material-icons {
+    font-size: 2em;
+}

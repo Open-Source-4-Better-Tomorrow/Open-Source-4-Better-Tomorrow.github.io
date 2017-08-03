@@ -36,7 +36,9 @@
 
     var _projectDescriptionRedirectionUrl = "/open-source-4-better-tomorrow/project_description/";
 	
-	var _DSD_RedirectionUrl = "https://dabrowski-software-development.github.io";
+    var _DSD_RedirectionUrl = "https://dabrowski-software-development.github.io";
+    
+    var _downloadCode_RedirectionUrl = "https://github.com/Open-Source-4-Better-Tomorrow/Open-Source-4-Better-Tomorrow.github.io/archive/master.zip";
 
     /* module scope variables end */
 
@@ -75,7 +77,11 @@
 	self.get_DSD_RedirectionUrl = function() {
 		return _DSD_RedirectionUrl;
 	}
-	
+    
+    self.get_downloadCode_RedirectionUrl = function() {
+        return _downloadCode_RedirectionUrl;
+    }
+    
     /* ~ Public API */
 
 

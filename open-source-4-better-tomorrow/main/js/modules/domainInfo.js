@@ -11,7 +11,10 @@
 
     var _projectDescription = moduleHelperMain.getProjectDescriptionRedirectionUrl();
 	
-	var _DSD_RedirectionUrl = moduleHelperMain.get_DSD_RedirectionUrl();
+    var _DSD_RedirectionUrl = moduleHelperMain.get_DSD_RedirectionUrl();
+    
+    var _downloadCode_RedirectionUrl = moduleHelperMain.get_downloadCode_RedirectionUrl();
+
     /* module scope variables end */
 
 
@@ -23,9 +26,15 @@
     }
     
 	function assignEventHandlers_Internals() {
+        // go (back) to D-S-D
 		$(".idea_supported_by").click(function() {
 			return goToDSD_Internal();
-		});
+        });
+        
+        // download entire code
+        $(".download").click(function() {
+            return goToDownloadCode_Internal();
+        });
 	}
 	
     function showSplash_Internal() {
@@ -87,7 +96,11 @@
 
 	function goToDSD_Internal() {
 		window.location.href = _DSD_RedirectionUrl;
-	}
+    }
+    
+    function goToDownloadCode_Internal() {
+        window.open(_downloadCode_RedirectionUrl, "_blank");
+    }
 	
     function handleClick_Internal(class_attr) {
         $(class_attr).css("box-shadow", "2px 2px 2px whitesmoke");
