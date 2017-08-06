@@ -36,7 +36,15 @@
             return goToDownloadCode_Internal();
         });
 	}
-	
+    
+    function applySiteHeightBasedOnCurrentResolution_Internal() {
+        // adjust site height for large screens, i.e. 27"
+        if(screen.width === 2560 && screen.height === 1440) {
+            $(".page").css("height",  "181.5em");
+            $(".footer").css("height",  "11.5em");
+        }
+    }    
+    
     function showSplash_Internal() {
 
         $("body").css("overflow-y", "hidden");
@@ -124,7 +132,8 @@
         displayMessageForNotSupportedBrowser_Internal();         
      }
      else {
-		assignEventHandlers_Internals();
+        assignEventHandlers_Internals();
+        applySiteHeightBasedOnCurrentResolution_Internal();
         showSplash_Internal();
      }
     }

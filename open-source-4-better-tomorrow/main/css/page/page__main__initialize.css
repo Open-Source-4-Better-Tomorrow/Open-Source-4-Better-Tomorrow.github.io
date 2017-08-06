@@ -1,0 +1,10 @@
+/* name of this file, i.e. page__main___initialize (and other files which follow this naming convention)
+   means that this file contains CSS initialization settings for container [ .main ] inside container [ page ]
+*/
+.main {
+    position: relative;
+    top: 15.6%;
+
+    width: 100%;
+    height: 143em;
+}

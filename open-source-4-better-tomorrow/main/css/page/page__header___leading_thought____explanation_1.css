@@ -1,0 +1,26 @@
+.leading_thought_explanation_1 {
+	position: relative;
+	float: left;
+	left: 0;
+		
+	width: 100%;
+	height: 1.3em;
+
+	font-size: 0.9em;
+
+	margin-top: 5%;
+
+	text-align: left;
+}
+
+.open_source {
+    position: relative;
+
+    font-weight: bolder;
+}
+
+.four_better_tomorrow {
+    position: relative;
+
+    font-weight: 100;
+}
