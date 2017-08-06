@@ -37,13 +37,13 @@
         });
 	}
     
-    function applySiteHeightBasedOnCurrentResolution_Internal() {
+    function applyCustomSettingsBasedOnCurrentResolution_Internal() {
         // adjust site height for large screens, i.e. 27"
         if(screen.width === 2560 && screen.height === 1440) {
             $(".page").css("height",  "181.5em");
             $(".footer").css("height",  "11.5em");
         }
-    }    
+    }
     
     function showSplash_Internal() {
 
@@ -133,7 +133,7 @@
      }
      else {
         assignEventHandlers_Internals();
-        applySiteHeightBasedOnCurrentResolution_Internal();
+        applyCustomSettingsBasedOnCurrentResolution_Internal();
         showSplash_Internal();
      }
     }

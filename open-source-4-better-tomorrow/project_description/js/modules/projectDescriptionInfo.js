@@ -56,6 +56,13 @@
         });
     }
 
+    function applyCustomSettingsBasedOnCurrentResolution_Internal() {
+        // adjust site height for large screens, i.e. 27"
+        if(screen.width === 2560 && screen.height === 1440) {
+            $(".leading_thought").css("margin-top",  "12%");
+        }
+    }    
+
     function showPage_Internal() {
         $(".page").css("visibility", "visible");
     }
@@ -96,6 +103,9 @@
 
         // assign necessary event handlers
         assignEventHandlers_Internal();
+
+        // apply large screen support
+        applyCustomSettingsBasedOnCurrentResolution_Internal();
 
         // show main page
 		showPage_Internal();
