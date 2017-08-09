@@ -27,7 +27,7 @@
     
 	function assignEventHandlers_Internals() {
         // go (back) to D-S-D
-		$(".idea_supported_by").click(function() {
+		$(".supported_by").click(function() {
 			return goToDSD_Internal();
         });
         
