@@ -1,6 +1,6 @@
 /*!
  * ModuleHelper
- * (c) Dabrowski Software Development
+ * (c) Open Source 4 Better Tomorrow
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
  */
 
