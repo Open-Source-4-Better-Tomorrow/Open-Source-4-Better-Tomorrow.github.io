@@ -12,7 +12,7 @@
   "project_version" : {
     "containerSelector" : ".project_version .value",
     "propertyName" : "innerHTML",
-    "propertyValue" : "v19.1"
+    "propertyValue" : "v19.5"
   },
   "project_availability" : {
     "containerSelector" : ".project_availability .value",
