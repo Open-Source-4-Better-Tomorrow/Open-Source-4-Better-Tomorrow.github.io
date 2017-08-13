@@ -22,7 +22,7 @@
   "project_description" : {
     "containerSelector" : ".project_description",
     "propertyName" : "innerHTML",
-    "propertyValue" : "This algorithm converts JSON object to SQL table data.<br />It does exactly the opposite to SQL2JSON.<br />More to follow soon."
+    "propertyValue" : "This algorithm converts JSON object to SQL table data.<br />It does exactly the opposite to SQL2JSON.<br /> Please visit <a href='https://gitter.im/JSON2SQL/INTERNALS_BEING_EXPLAINED?source=orgpage' target='_blank'>Gitter Chat Room</a> for this project."
   },
   "project_history_1" : {
     "containerSelector" : ".project_history .value a",

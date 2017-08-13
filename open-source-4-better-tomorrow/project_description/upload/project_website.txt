@@ -22,7 +22,7 @@
   "project_description" : {
     "containerSelector" : ".project_description",
     "propertyName" : "innerHTML",
-    "propertyValue" : "This is official open source website of D-S-D.<br />It is being run based on MIT license.<br />More to follow soon."
+    "propertyValue" : "This is official open source website of S-D-of-B-T.<br />It is being run based on MIT license.<br />Please visit <a href='https://gitter.im/PROJECT_WEBSITE/INTERNALS_BEING_EXPLAINED?source=orgpage' target='_blank'>Gitter Chat Room</a> for this project."
   },
   "project_history_1" : {
     "containerSelector" : ".project_history .value a",
