@@ -27,7 +27,7 @@
   "project_history_1" : {
     "containerSelector" : ".project_history .value a",
     "propertyName" : "innerHTML",
-    "propertyValue" : "D-S-D"
+    "propertyValue" : "S-D-of-B-T"
   },
   "project_history_2" : {
     "containerSelector" : ".project_history .value a",
