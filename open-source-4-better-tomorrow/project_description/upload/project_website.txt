@@ -32,7 +32,7 @@
   "project_history_2" : {
     "containerSelector" : ".project_history .value a",
     "propertyName" : "href",
-    "propertyValue" : "https://github.com/Dabrowski-Software-Development/Dabrowski-Software-Development.github.io"
+    "propertyValue" : "https://github.com/Software-Development-of-Better-Tomorrow/Software-Development-of-Better-Tomorrow.github.io"
   },
   "project_history_3" : {
     "containerSelector" : ".project_history .value a",
@@ -42,7 +42,7 @@
   "project_download_1" : {
     "containerSelector" : ".project_download .value a",
     "propertyName" : "href",
-    "propertyValue" : "https://github.com/Dabrowski-Software-Development/Dabrowski-Software-Development.github.io/archive/master.zip"
+    "propertyValue" : "https://github.com/Software-Development-of-Better-Tomorrow/Software-Development-of-Better-Tomorrow.github.io/archive/master.zip"
   },
   "project_download_2" : {
     "containerSelector" : ".project_download .value a",
