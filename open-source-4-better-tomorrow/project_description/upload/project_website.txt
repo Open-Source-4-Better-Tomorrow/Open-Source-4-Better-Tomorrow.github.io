@@ -12,7 +12,7 @@
   "project_version" : {
     "containerSelector" : ".project_version .value",
     "propertyName" : "innerHTML",
-    "propertyValue" : "v19.6"
+    "propertyValue" : "v19.7"
   },
   "project_availability" : {
     "containerSelector" : ".project_availability .value",
@@ -52,6 +52,6 @@
   "project_update" : {
     "containerSelector" : ".project_update .value",
     "propertyName" : "innerHTML",
-    "propertyValue" : "2017-08-28 07:22:00 GMT +01:00"
+    "propertyValue" : "2017-08-29 15:13:00 GMT +01:00"
   }
 }
