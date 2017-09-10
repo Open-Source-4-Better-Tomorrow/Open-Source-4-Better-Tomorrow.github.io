@@ -36,7 +36,7 @@
 
     var _projectDescriptionRedirectionUrl = "/open-source-4-better-tomorrow/project_description/";
 	
-    var _DSD_RedirectionUrl = "https://software-development-of-better-tomorrow.github.io";
+    var _SDofBT_RedirectionUrl = "https://software-development-of-better-tomorrow.org";
     
     var _downloadCode_RedirectionUrl = "https://github.com/Open-Source-4-Better-Tomorrow/Open-Source-4-Better-Tomorrow.github.io/archive/master.zip";
 
@@ -74,8 +74,8 @@
         return _projectDescriptionRedirectionUrl;
     }
 
-	self.get_DSD_RedirectionUrl = function() {
-		return _DSD_RedirectionUrl;
+	self.get_SDofBT_RedirectionUrl = function() {
+		return _SDofBT_RedirectionUrl;
 	}
     
     self.get_downloadCode_RedirectionUrl = function() {

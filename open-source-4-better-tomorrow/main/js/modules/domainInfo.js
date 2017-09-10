@@ -11,7 +11,7 @@
 
     var _projectDescription = moduleHelperMain.getProjectDescriptionRedirectionUrl();
 	
-    var _DSD_RedirectionUrl = moduleHelperMain.get_DSD_RedirectionUrl();
+    var _SDofBT_RedirectionUrl = moduleHelperMain.get_SDofBT_RedirectionUrl();
     
     var _downloadCode_RedirectionUrl = moduleHelperMain.get_downloadCode_RedirectionUrl();
 
@@ -26,9 +26,9 @@
     }
     
 	function assignEventHandlers_Internals() {
-        // go (back) to D-S-D
+        // go (back) to S-D-of-B-T
 		$(".supported_by").click(function() {
-			return goToDSD_Internal();
+			return goToSDofBT_Internal();
         });
         
         // download entire code
@@ -102,8 +102,8 @@
         $(".page").css("visibility", "visible");
     }
 
-	function goToDSD_Internal() {
-		window.location.href = _DSD_RedirectionUrl;
+	function goToSDofBT_Internal() {
+		window.location.href = _SDofBT_RedirectionUrl;
     }
     
     function goToDownloadCode_Internal() {
