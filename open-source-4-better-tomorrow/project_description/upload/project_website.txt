@@ -42,7 +42,7 @@
   "project_download_1" : {
     "containerSelector" : ".project_download .value a",
     "propertyName" : "href",
-    "propertyValue" : "https://github.com/Software-Development-of-Better-Tomorrow/Software-Development-of-Better-Tomorrow.github.io/archive/master.zip"
+    "propertyValue" : "https://software-development-of-better-tomorrow.org/___general_download___/master.zip";
   },
   "project_download_2" : {
     "containerSelector" : ".project_download .value a",
