@@ -12,7 +12,7 @@
   "project_version" : {
     "containerSelector" : ".project_version .value",
     "propertyName" : "innerHTML",
-    "propertyValue" : "v19.9.5"
+    "propertyValue" : "v20.1.0"
   },
   "project_availability" : {
     "containerSelector" : ".project_availability .value",
@@ -39,9 +39,19 @@
     "propertyName" : "target",
     "propertyValue" : "_blank"
   },
+  "project_download_1" : {
+    "containerSelector" : ".project_download .value a",
+    "propertyName" : "href",
+    "propertyValue" : "https://software-development-of-better-tomorrow.org/___full_version_for_localhost___/master.zip"
+  },
+  "project_download_2" : {
+    "containerSelector" : ".project_download .value a",
+    "propertyName" : "download",
+    "propertyValue" : "Project_Website___ALL.zip"
+  },
   "project_update" : {
     "containerSelector" : ".project_update .value",
     "propertyName" : "innerHTML",
-    "propertyValue" : "2017-12-28 13:55:00 GMT +01:00"
+    "propertyValue" : "2017-12-28 14:29:00 GMT +01:00"
   }
 }
