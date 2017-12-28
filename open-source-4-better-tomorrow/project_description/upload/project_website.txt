@@ -39,19 +39,9 @@
     "propertyName" : "target",
     "propertyValue" : "_blank"
   },
-  "project_download_1" : {
-    "containerSelector" : ".project_download .value a",
-    "propertyName" : "href",
-    "propertyValue" : ""
-  },
-  "project_download_2" : {
-    "containerSelector" : ".project_download .value a",
-    "propertyName" : "",
-    "propertyValue" : ""
-  },
   "project_update" : {
     "containerSelector" : ".project_update .value",
     "propertyName" : "innerHTML",
-    "propertyValue" : "2017-12-28 13:50:00 GMT +01:00"
+    "propertyValue" : "2017-12-28 13:55:00 GMT +01:00"
   }
 }
