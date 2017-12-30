@@ -52,6 +52,6 @@
   "project_update" : {
     "containerSelector" : ".project_update .value",
     "propertyName" : "innerHTML",
-    "propertyValue" : "2017-12-28 14:29:00 GMT +01:00"
+    "propertyValue" : "2017-12-30 03:01:00 GMT +01:00"
   }
 }
