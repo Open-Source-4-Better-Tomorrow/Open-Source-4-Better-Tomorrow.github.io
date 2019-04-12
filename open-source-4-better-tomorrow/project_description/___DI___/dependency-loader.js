@@ -31,7 +31,8 @@
     var _array_of_current_view_urls_XHRs = [];
 
     var _array_of_currentView_pageTemplates = [
-        location.href.substring(0, location.href.lastIndexOf('/') + 1) + "main-view-template.html"
+        //location.href.substring(0, location.href.lastIndexOf('/') + 1) + "main-view-template.html"
+        '/open-source-4-better-tomorrow/project_description/V/main-view-template.html'
     ];
 
     /* ~ private variables */
