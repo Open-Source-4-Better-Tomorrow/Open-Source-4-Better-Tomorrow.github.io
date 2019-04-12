@@ -1,0 +1,57 @@
+{
+  "project_info" : {
+    "containerSelector" : ".open_source_value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "PROJECT WEBSITE"
+  },
+  "project_language" : {
+    "containerSelector" : ".project_language .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "HTML5/CSS3/JavaScript"
+  },
+  "project_version" : {
+    "containerSelector" : ".project_version .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "v24.0.0"
+  },
+  "project_availability" : {
+    "containerSelector" : ".project_availability .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "[ to be released ]"
+  },
+  "project_description" : {
+    "containerSelector" : ".project_description",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "This is official open source website of C4B Solutions.<br />It is being run based on MIT license.<br />Please visit <a href='https://gitter.im/PROJECT_WEBSITE/INTERNALS_BEING_EXPLAINED?source=orgpage' target='_blank'>Gitter Chat Room</a> for all related to this project."
+  },
+  "project_history_1" : {
+    "containerSelector" : ".project_history .value a",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "C4B Solutions"
+  },
+  "project_history_2" : {
+    "containerSelector" : ".project_history .value a",
+    "propertyName" : "href",
+    "propertyValue" : "https://github.com/Software-Development-of-Better-Tomorrow/Software-Development-of-Better-Tomorrow.github.io"
+  },
+  "project_history_3" : {
+    "containerSelector" : ".project_history .value a",
+    "propertyName" : "target",
+    "propertyValue" : "_blank"
+  },
+  "project_download_1" : {
+    "containerSelector" : ".project_download .value a",
+    "propertyName" : "href",
+    "propertyValue" : "https://software-development-of-better-tomorrow.org/___full_version_for_localhost___/master.zip"
+  },
+  "project_download_2" : {
+    "containerSelector" : ".project_download .value a",
+    "propertyName" : "download",
+    "propertyValue" : "Project_Website___ALL.zip"
+  },
+  "project_update" : {
+    "containerSelector" : ".project_update .value",
+    "propertyName" : "innerHTML",
+    "propertyValue" : "2019-04-12 15:16:00 GMT +0000"
+  }
+}

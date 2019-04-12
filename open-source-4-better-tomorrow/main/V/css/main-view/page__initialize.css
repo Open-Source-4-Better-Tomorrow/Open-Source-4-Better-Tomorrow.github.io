@@ -1,0 +1,47 @@
+.page {
+    border: 1px solid #C10C06;
+
+    color: #ffffff;
+
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+    max-height: 100%;
+    min-height: 126.5em;
+
+    position: relative;
+
+    width: 99%;
+}
+
+@media only screen and (width: 1366px) {
+    .page {
+        min-height: 150.5em;
+    }
+}
+
+@media only screen and (width: 1440px) {
+    .page {
+        min-height: 151.5em;
+    }
+}
+
+@media only screen and (width: 1680px) {
+    .page {
+        min-height: 127.5em;
+    }
+}
+
+@media only screen and (width: 1920px) {
+    .page {
+        min-height: 135.65em;
+    }
+}
+
+@media only screen and (width: 2560px) {
+    .page {
+        min-height: 173.05em;
+    }
+}

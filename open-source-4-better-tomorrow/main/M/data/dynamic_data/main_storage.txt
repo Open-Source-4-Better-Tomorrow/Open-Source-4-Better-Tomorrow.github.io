@@ -1,0 +1,61 @@
+{
+    id=json2sql_header;
+    type=class;
+    description=JSON 2 SQL - GA
+},{
+    id=json2sql_content;
+    type=class;
+    description=Project development completed.<br />Final release.
+},{
+    id=json2sql_footer;
+    type=class;
+    description=GA stands for Generally Available
+},{
+    id=sql2json_header;
+    type=class;
+    description=SQL 2 JSON - GA
+},{
+    id=sql2json_content;
+    type=class;
+    description=Project development completed.<br />Final release.
+},{
+    id=sql2json_footer;
+    type=class;
+    description=GA stands for Generally Available
+},{
+    id=sql2sql_header;
+    type=class;    
+    description=SQL 2 SQL - UPD
+},{
+    id=sql2sql_content;
+    type=class;    
+    description=Project development postponed.
+},{
+    id=sql2sql_footer;
+    type=class;    
+    description=UPD stands for Under Postponed Development
+},{
+    id=project_website_header;
+    type=class;    
+    description=PROJECT WEBSITE - UAD
+},{
+    id=project_website_content;
+    type=class;    
+    description=Project development active.<br />Current release set to v24.0.0
+},{
+    id=project_website_footer;
+    type=class;
+    description=UAD stands for Under Active Development
+},{
+    id=project_mobile_website_header;
+    type=class;    
+    description=PROJECT MOBILE WEBSITE - UND
+},{
+    id=project_mobile_website_content;
+    type=class;    
+    description=Project development pending.<br />Next release set to v1.0.0
+},{
+    id=project_mobile_website_footer;
+    type=class;    
+    description=UND stands for Under Next Development
+}

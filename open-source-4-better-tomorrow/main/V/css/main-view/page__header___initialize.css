@@ -1,0 +1,23 @@
+.header {
+    background-color: #C10C06;
+
+    font-size: 4em;
+
+    height: 7em;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+
+    position: relative;
+
+    text-align: center;
+
+    width: 99%;
+}
+
+.header_inline {
+    display: inline-block;
+
+    position: relative;
+}

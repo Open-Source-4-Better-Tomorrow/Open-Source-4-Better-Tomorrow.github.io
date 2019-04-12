@@ -1,0 +1,17 @@
+.logo {
+    background-image: url('/open-source-4-better-tomorrow/main/V/images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    float: left;
+
+    height: 200px;
+
+    left: 1%;
+
+    position: relative;
+
+    top: 0;
+
+    width: 200px;
+}
