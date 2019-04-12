@@ -53,7 +53,7 @@
 },{
     id=project_mobile_website_content;
     type=class;    
-    description=Project development pending.<br />Next release set to v1.0.0
+    description=Project development pending.<br />Initial release set to v1.0.0
 },{
     id=project_mobile_website_footer;
     type=class;    
