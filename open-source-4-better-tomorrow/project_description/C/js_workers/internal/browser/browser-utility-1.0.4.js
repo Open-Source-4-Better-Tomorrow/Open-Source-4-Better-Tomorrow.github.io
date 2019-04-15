@@ -4,14 +4,14 @@
  * BrowserUtility JavaScript library v1.0.4
  * (https://github.com/dabrowski-software-development/BrowserUtility)
  *
- * 
+ *
  * Author: Łukasz Dąbrowski
  * Title : Software Engineer
- * 
+ *
  * (c) C4B Solutions
  *
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
- */
+*/
 
 (function (window) {
     'use strict';
@@ -79,8 +79,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function removeUrlFragment_I_1L() {
                 window.history.pushState("#", "", window.location.href.substring(0, window.location.href.length - window.location.hash.length));
             }
@@ -96,8 +96,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function redirectToMobileVersion_I_1L(mobilePrefix) {
                 // create mobile url
                 var mobileUrl = createRedirectionToMobileVersion_I_1L(mobilePrefix);
@@ -117,8 +117,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function redirectToDesktopVersion_I_1L() {
                 // create desktop url
                 var desktopUrl = createRedirectionToDesktopVersion_I_1L();
@@ -134,8 +134,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function detectIfCurrentInternetExplorerVersionCanHandleThisPage_I_1L(currentInternetExplorerVersion) {
                 try {
                     if (!_implementationDetails.currentBrowserIsCompatible || _implementationDetails.ie && _implementationDetails.ieVersion < currentInternetExplorerVersion)
@@ -153,8 +153,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function checkMinAllowedResolution_I_1L(width, height, minRatio, excludeSomeResolutions, resolutionsArray) {
                 var calculatedRatio = width / height;
                 var ratio = Math.round(calculatedRatio * 100) / 100;
@@ -178,8 +178,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function checkMinAllowedResolution_2_I_1L(width, height, excludeSomeResolutions, resolutionsArray) {
                 if (excludeSomeResolutions) {
                     for (var i = 0; i < resolutionsArray.length; i += 2) {
@@ -199,8 +199,8 @@
 
 
             /**
-             * Local helper function 
-             */
+             * Local helper function
+            */
             function displayMessageForNotSupportedBrowser_I_3L(message) {
                 document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>" + message + "</div>";
             }
@@ -212,8 +212,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function checkRequirements_I_1L(mobileVersionPrefix, disallowedResolutionsArray, ieVersion, notSupportedResolutionMessage) {
                 // redirect to mobile version in case of mobile browser
                 if (_implementationDetails.isMobile) {
@@ -263,7 +263,7 @@
 
 
 
-    //Expose module API to the outside world */
+    // Expose module API to the outside world
     window.activeBrowser = window.activeBrowser || {};
     window.activeBrowser.browserUtility = window.activeBrowser.browserUtility || _implementationDetails;
 })(window);

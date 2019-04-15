@@ -3,14 +3,14 @@
 /*
  * Custom Hover Animation Task Library
  *
- * 
+ *
  * Author: Łukasz Dąbrowski
  * Title : Software Engineer
- * 
+ *
  * (c) C4B Solutions
  *
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
- */
+*/
 
 (function (window) {
     var self = this;
@@ -27,8 +27,8 @@
 
 
                     /**
-                     * Local helper functions 
-                     */
+                     * Local helper functions
+                    */
                     function createNewInstance_I_1L(htmlSelector, actionInterval, actionTimeout, actionInHandler, actionOutHandler) {
                         // create brand new instance of custom looper object
                         var _CUSTOM_HOVER_OBJECT = {
@@ -55,8 +55,8 @@
 
 
                                     /**
-                                     * Local helper functions 
-                                     */
+                                     * Local helper functions
+                                    */
                                     function startAnimation_I_1L() {
                                         _CUSTOM_HOVER_OBJECT.Looping._internals_.hoverAnimationLHandler_I =
                                             setInterval(
@@ -81,8 +81,8 @@
 
 
                                         /**
-                                         * Local helper functions 
-                                         */
+                                         * Local helper functions
+                                        */
                                         function invokeHoverAnimationHelper_I_2L() {
                                             $(_CUSTOM_HOVER_OBJECT.Looping._internals_.htmlSelector_I).hover(
                                                 function () {
@@ -113,8 +113,8 @@
 
 
                                     /**
-                                     * Local helper functions 
-                                     */
+                                     * Local helper functions
+                                    */
                                     function stopAnimation_I_1L() {
                                         // stop custom hover animation
                                         clearInterval(_CUSTOM_HOVER_OBJECT.Looping._internals_.hoverAnimationLHandler_I);
@@ -143,6 +143,6 @@
 
 
 
-    /* Expose module API to the outside world */
+    // Expose module API to the outside world
     window.customHoverAnimationAPI = window.customHoverAnimationAPI || self;
 })(window);

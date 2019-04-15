@@ -3,14 +3,14 @@
 /*
  * Resilient Storage Access Abstraction Layer
  *
- * 
+ *
  * Author: Łukasz Dąbrowski
  * Title : Software Engineer
- * 
+ *
  * (c) C4B Solutions
  *
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
- */
+*/
 
 (
     function (window) {
@@ -63,10 +63,10 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function externalDataHandler_I_2L(responseTxt, textStatus, xhr) {
-                // on success invoke callback with received data 
+                // on success invoke callback with received data
                 if (xhr.status === 200 && xhr.readyState === 4) {
                     callback(responseTxt);
                 }
@@ -92,8 +92,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
 
             // local helper function to parse module config
             function parseConfigJsonObject_I_2L(configJsonObject) {
@@ -106,14 +106,14 @@
                 // parse object
                 var storageObject = parse_SALM_Params_Object_I_3L(configJsonObject);
 
-                // perform asynchronous data fetching from a storage 
+                // perform asynchronous data fetching from a storage
                 return doRetrieval_I_3L(storageObject);
 
 
 
                 /**
-                 * Local helper functions 
-                 */
+                 * Local helper functions
+                */
 
                 // local helper function to validate SAAL params object
                 function validate_SALM_Params_Object_I_3L(salpo) {
@@ -219,8 +219,8 @@
 
 
                     /**
-                     * Local helper functions 
-                     */
+                     * Local helper functions
+                    */
 
                     // local helper function to convert to flat file
                     function convertTo_FlatFile_AbstractionLayer_I_4L(salpo) {
@@ -301,7 +301,7 @@
 
                     /**
                      * Local helper functions
-                     */
+                    */
                     // local helper function to fetch actual data
                     function fetchDataFromStorage_I_4L(storageDataObject) {
                         if (storageDataObject.isFlatFile) {
@@ -321,7 +321,7 @@
 
                         /**
                          * Local helper functions
-                         */
+                        */
                         // local helper function to read data from an external flat file
                         function readDataFromExternalFlatFile_I_5L(dataPath, callback) {
                             // create temporary container
@@ -333,10 +333,10 @@
 
 
                             /**
-                             * Local helper functions 
-                             */
+                             * Local helper functions
+                            */
                             function externalDataHandler_I_6L(responseTxt, textStatus, xhr) {
-                                // on success invoke callback with received data 
+                                // on success invoke callback with received data
                                 if (xhr.status === 200 && xhr.readyState === 4) {
                                     // at this point we already know that we are about to return some data
                                     _invocationContext.isValid = true;
@@ -386,8 +386,8 @@
 
 
                             /**
-                             * Local helper functions 
-                             */
+                             * Local helper functions
+                            */
                             function onDatabaseSuccess_I_6L(data) {
                                 // at this point we already know that we are about to return some data
                                 _invocationContext.isValid = true;
@@ -426,8 +426,8 @@
 
 
                             /**
-                             * Local helper functions 
-                             */
+                             * Local helper functions
+                            */
                             function onServiceSuccess_I_6L(data) {
                                 // at this point we already know that we are about to return some data
                                 _invocationContext.isValid = true;
@@ -476,7 +476,7 @@
 
 
 
-        /* Expose module API to the outside world */
+        // Expose module API to the outside world
         window.rsaal = window.rsaal || self;
     }
 )(window);

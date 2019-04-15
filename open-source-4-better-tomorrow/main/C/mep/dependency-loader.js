@@ -6,14 +6,14 @@
 /*
  * Module that controls the critical loading process of this DHTML MVC module's dependencies.
  *
- * 
+ *
  * Author: Łukasz Dąbrowski
  * Title : Software Engineer
- * 
+ *
  * (c) C4B Solutions / C4B Software
  *
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
- */
+*/
 
 (function (window) {
 
@@ -44,14 +44,14 @@
          * Prefetch all critical templates of the current view, if they're not present in cache.
          * Cache is represented by Session Storage.
          * When all templates are in cache, proceed with further actions
-         */
+        */
         prefetch_CurrentView_PageTemplates_I_2L(true, _array_of_currentView_pageTemplates);
 
 
 
         /**
-         * Local helper functions 
-         */
+         * Local helper functions
+        */
         function prefetch_CurrentView_PageTemplates_I_2L(checkCache, url_address_array) {
             // if required templates are already cached, just dispatch the event to trigger further action
             if (checkCache && checkCache_I_3L(url_address_array)) {
@@ -64,8 +64,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function checkCache_I_3L(url_address_array) {
                 // define array of already cached items
                 var cached = [];
@@ -157,6 +157,6 @@
 
 
 
-    /* Expose module API to the outside world */
+    // Expose module API to the outside world
     window.dependencyLoader = window.dependencyLoader || self;
 })(window);

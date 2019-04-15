@@ -1,14 +1,14 @@
 /*
  * BrowserAddressBarUtility JavaScript library v0.0.1
  *
- * 
+ *
  * Author: Łukasz Dąbrowski
  * Title : Software Engineer
- * 
+ *
  * (c) C4B Solutions
  *
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
- */
+*/
 
 (function (window) {
     'use strict';
@@ -192,6 +192,6 @@
 
 
 
-    //Expose module API to the outside world */
+    // Expose module API to the outside world
     window.activeBrowserAddressBarUtility = window.activeBrowserAddressBarUtility || self;
 })(window);

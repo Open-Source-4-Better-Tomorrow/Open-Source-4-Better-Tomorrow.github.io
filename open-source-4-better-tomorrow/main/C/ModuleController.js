@@ -2,14 +2,14 @@
  * Module that controls the loading process of this DHTML MVC module.
  * This single module is part of the bigger one, that stands for Controller in the MVC design pattern.
  *
- * 
+ *
  * Author: Łukasz Dąbrowski
  * Title : Software Engineer
- * 
+ *
  * (c) C4B Solutions / C4B Software
  *
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
- */
+*/
 
 (
     function () {
@@ -21,22 +21,22 @@
 
 
                 /**
-                 * Local helper functions 
-                 */
+                 * Local helper functions
+                */
                 function onRequiredModulesLoaded_I_1L() {
                     /**
                      * Trigger controller's entry method as soon as HTML document has been completely loaded and parsed (althought some images, frames & other external resources may still be loading).
                      * This allows controller for kicking off its entry method as soon as possible with View knowing nothing about mechanism that renders View's layout.
                      * This is further separation of concerns (DHTML MVC Concept).
                      * This provides better CSP (Content Security Policy).
-                     */
+                    */
                     runControllerEntryPoint_I_2L();
 
 
 
                     /**
-                     * Local helper functions 
-                     */
+                     * Local helper functions
+                    */
                     function runControllerEntryPoint_I_2L() {
                         // check browser requirements from the site point of view
                         var areValid = activeBrowser.browserUtility.checkRequirements(
@@ -47,7 +47,7 @@
                         );
                         // if browser requirements are ok, proceed with token
                         if (areValid) {
-                            // setup token mode            
+                            // setup token mode
                             activeBrowserAddressBarUtility.setupTokenMode(_CONTROLLER_OBJECT.Variables._hashReplacement);
 
                             /**
@@ -58,15 +58,15 @@
                              * which in plain English means all HTML and CSS that must be shown as soon as possible with proper styling.
                              * I deliberately broke this rule a little bit, because actual CRP -> TTFP takes place when this loading progress stuff happens.
                              * This is a real TTFP, but in this case TTFP means meaningful content strictly related to the website, which is the logo.
-                             */
+                            */
                             show_Fast_Initial_View_I_3L();
                         }
 
 
 
                         /**
-                         * Local helper functions 
-                         */
+                         * Local helper functions
+                        */
                         function show_Fast_Initial_View_I_3L() {
                             // at this stage there is no initial view, so show progress bar to maintain the feeling of loading resources
                             showProgressBar_I_4L();
@@ -77,12 +77,12 @@
 
 
                             /**
-                             * Local helper functions 
-                             */
+                             * Local helper functions
+                            */
                             function showProgressBar_I_4L() {
                                 var _progressCounter = 1;
 
-                                document.getElementsByClassName("progress_" + _progressCounter)[0].style.backgroundColor = "#C10C06"; /* positive red */
+                                document.getElementsByClassName("progress_" + _progressCounter)[0].style.backgroundColor = "#C10C06"; /* positive red*/
                                 document.getElementsByClassName("progress_" + (_progressCounter + 1))[0].style.backgroundColor = "white";
                                 document.getElementsByClassName("progress_" + (_progressCounter + 2))[0].style.backgroundColor = "white";
 
@@ -127,17 +127,17 @@
 
 
                 /**
-                 * Local helper functions 
-                 */
+                 * Local helper functions
+                */
                 function onLoadFastInitialView_I_1L() {
                     // load other required resources for page being fully usable
                     ral.GET_RAL_OBJECT.Loader.loadAsync(
                         _CONTROLLER_OBJECT.DynamicResources.fastInitialView_PendingOperations_RequiredModulesArray,
                         _CONTROLLER_OBJECT.DynamicResources.fastInitialView_PendingOperations_RequiredModulesArray_Type,
-                        /** 
+                        /**
                          * Modules returned by ral.GET_RAL_OBJECT.Loader.loadAsync are executed in the order provided above.
                          * They're available globally via window object, therefore you can skip them in the function' arguments.
-                         */
+                        */
                         function () {
                             // trigger pending operations
                             confirm_that_FastInitialView_was_shown_I_1L();
@@ -145,8 +145,8 @@
 
 
                             /**
-                             * Local helper functions 
-                             */
+                             * Local helper functions
+                            */
                             function confirm_that_FastInitialView_was_shown_I_1L() {
                                 document.dispatchEvent(new CustomEvent(_CONTROLLER_OBJECT.DynamicResources.eventTypeArray[2]));
                             }
@@ -161,8 +161,8 @@
 
 
                 /**
-                 * Local helper functions 
-                 */
+                 * Local helper functions
+                */
                 function onShowFastInitialView_I_1L() {
                     // cancel progress bar animation
                     clearInterval(_CONTROLLER_OBJECT.Variables._animationIntervalHandler);
@@ -228,8 +228,8 @@
 
 
                     /**
-                     * Local helper functions 
-                     */
+                     * Local helper functions
+                    */
                     function addEventHandler_I_1L() {
                         document.addEventListener(eventType, eventHandler);
                     }

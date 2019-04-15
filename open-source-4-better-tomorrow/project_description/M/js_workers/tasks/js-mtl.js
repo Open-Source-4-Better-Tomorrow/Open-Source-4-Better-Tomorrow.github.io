@@ -4,14 +4,14 @@
 /*
  * Module Task Library
  *
- * 
+ *
  * Author: Łukasz Dąbrowski
  * Title : Software Engineer
- * 
+ *
  * (c) C4B Solutions / C4B Software
  *
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
- */
+*/
 
 (function (window) {
 
@@ -68,8 +68,8 @@
 
 
         /**
-         * Local helper functions 
-         */
+         * Local helper functions
+        */
         function removeEmptyArrayItems_I_2L(inputArray) {
             var outputArray = [];
 
@@ -87,8 +87,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function validateAgainstNonPrintableChars_I_3L(inputString) {
                 if (inputString.length === 0)
                     return false;
@@ -111,8 +111,8 @@
 
 
         /**
-         * Local helper functions 
-         */
+         * Local helper functions
+        */
         function createXmlHttpRequest_I_2L(itemNameForLaterAccess, callback, doCache) {
             // create request
             var xhr = new XMLHttpRequest();
@@ -156,6 +156,6 @@
 
 
 
-    /* Expose module API to the outside world */
+    // Expose module API to the outside world
     window.jsUtilities = window.jsUtilities || self;
 })(window);

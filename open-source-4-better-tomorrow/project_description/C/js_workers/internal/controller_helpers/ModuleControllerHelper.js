@@ -4,14 +4,14 @@
  * Module that provides some help in navigation between Model and View.
  * This single module is part of the bigger one, that stands for Controller in the MVC design pattern.
  *
- * 
+ *
  * Author: Łukasz Dąbrowski
  * Title : Software Engineer
- * 
+ *
  * (c) C4B Solutions / C4B Software
  *
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
- */
+*/
 
 (
     function () {
@@ -84,8 +84,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function injectStaticLabels_and_BindActions_I_2L() {
                 stopProgressBar_I_3L();
 
@@ -96,8 +96,8 @@
 
 
                 /**
-                 * Local helper functions 
-                 */
+                 * Local helper functions
+                */
                 function stopProgressBar_I_3L() {
                     // clear animation interval that is a window-wide accessible
                     clearInterval(window._animationIntervalHandler);
@@ -125,7 +125,7 @@
 
                     /**
                      * Local helper functions
-                     */
+                    */
                     function setupGoToC4BSolutionsAnimation_I_4L() {
                         customHoverAnimationAPI.GET_HOVER_OBJECT.Factory.HoverAnimationObject.createNewInstance(
                             '.logo',
@@ -170,9 +170,9 @@
             /**
              * Setup two callbacks:
              *  - [onInternalDOMUploadDataCallback] - set callback to do internal DOM data upload [in this case no such requirement !]
-             * 
+             *
              *  - [onReturnDataCallback] - set callback to invoke on successfull completion of returning external data or notify about successfull completion of internal DOM data upload
-             */
+            */
 
             _moduleModel.GET.Contexts.ProjectDescriptionContext.onReturnDataCallback = finalizeProcessOfDataLoading_I_2L;
 
@@ -186,7 +186,7 @@
 
             /**
              * Local helper functions
-             */
+            */
             function setProjectContext_I_2L() {
                 // fetch id of project
                 var openSourceProject_Id_Attr = sessionStorage.getItem(_moduleModel.GET.Variables._openSourceProjectKey);
@@ -211,8 +211,8 @@
 
 
                 /**
-                 * Local helper functions 
-                 */
+                 * Local helper functions
+                */
                 function loadProjectDetails_I_3L(abstractionOfData) {
                     // convert to JSON object
                     var projectDataObject = JSON.parse(abstractionOfData);
@@ -223,8 +223,8 @@
 
 
                     /**
-                     * Local helper functions 
-                     */
+                     * Local helper functions
+                    */
                     function mapObjectToContainers_I_4L(projectDataObject) {
                         // iterate over all project description props
                         for (var property in projectDataObject) {
@@ -265,7 +265,7 @@
         /**
          * Run necessary pending operations after the fast initial view,
          * the most important of which is initializing the model.
-         */
+        */
         self.runPendingOperationsAfterFastInitialView = function () {
             initializeModel_I_1L();
 
@@ -273,7 +273,7 @@
 
             loadCSS_I_1L();
 
-            //loadCacheIfAny_I_1L();            
+            //loadCacheIfAny_I_1L();
 
             on_SAAL_BeingAccessible_I_1L();
         };
@@ -282,7 +282,7 @@
 
 
 
-        /* Expose module API to the outside world */
+        // Expose module API to the outside world
         window.moduleControllerHelper = window.moduleControllerHelper || self;
     }
 )();

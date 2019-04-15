@@ -4,14 +4,14 @@
  * Module that provides some help in navigation between Model and View.
  * This single module is part of the bigger one, that stands for Controller in the MVC design pattern.
  *
- * 
+ *
  * Author: Łukasz Dąbrowski
  * Title : Software Engineer
- * 
+ *
  * (c) C4B Solutions / C4B Software
  *
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
- */
+*/
 
 (
     function () {
@@ -84,8 +84,8 @@
 
 
             /**
-             * Local helper functions 
-             */
+             * Local helper functions
+            */
             function injectStaticLabels_and_BindActions_I_2L() {
                 stopProgressBar_I_3L();
 
@@ -96,8 +96,8 @@
 
 
                 /**
-                 * Local helper functions 
-                 */
+                 * Local helper functions
+                */
                 function stopProgressBar_I_3L() {
                     // clear animation interval that is a window-wide accessible
                     clearInterval(window._animationIntervalHandler);
@@ -150,7 +150,7 @@
 
                     /**
                      * Local helper functions
-                     */
+                    */
                     function handleClick_I_1L(customEvent) {
                         $(customEvent.detail).css('box-shadow', '2px 2px 2px whitesmoke');
 
@@ -251,9 +251,9 @@
             /**
              * Setup two callbacks:
              *  - [onInternalDOMUploadDataCallback] - set callback to do internal DOM data upload [in this case no such requirement !]
-             * 
+             *
              *  - [onReturnDataCallback] - set callback to invoke on successfull completion of returning external data or notify about successfull completion of internal DOM data upload
-             */
+            */
 
             _moduleModel.GET.Contexts.ProjectsContentContext.onReturnDataCallback = loadProjectsContent_I_2L;
 
@@ -264,7 +264,7 @@
 
             /**
              * Local helper functions
-             */
+            */
             function loadProjectsContent_I_2L(abstractionOfData) {
                 processContent_I_3L();
 
@@ -274,7 +274,7 @@
 
                 /**
                  * Local helper functions
-                 */
+                */
                 function processContent_I_3L() {
                     // convert to JSON object
                     var projects = abstractionOfData.split('},{');
@@ -288,8 +288,8 @@
 
 
                     /**
-                     * Local helper functions 
-                     */
+                     * Local helper functions
+                    */
                     function manageProjectData_I_4L(projectData) {
                         // get array of metadata
                         var metadata_array = projectData.split(';');
@@ -303,7 +303,7 @@
                          *  0 - id,
                          *  1 - type,
                          *  2 - description
-                         */
+                        */
                         switch (metadata_array[1]) {
                             case 'type=id':
                                 updateProject_using_ID_I_5L(metadata_array[0], metadata_array[2]);
@@ -316,8 +316,8 @@
 
 
                         /**
-                         * Local helper functions 
-                         */
+                         * Local helper functions
+                        */
                         function updateProject_using_ID_I_5L(id_attr_metadata, description_metadata) {
                             // extract id and description attrs
                             var id_attr = id_attr_metadata.split('=')[1];
@@ -376,7 +376,7 @@
         /**
          * Run necessary pending operations after the fast initial view,
          * the most important of which is initializing the model.
-         */
+        */
         self.runPendingOperationsAfterFastInitialView = function () {
             initializeModel_I_1L();
 
@@ -384,7 +384,7 @@
 
             loadCSS_I_1L();
 
-            //loadCacheIfAny_I_1L();            
+            //loadCacheIfAny_I_1L();
 
             on_SAAL_BeingAccessible_I_1L();
         };
@@ -393,7 +393,7 @@
 
 
 
-        /* Expose module API to the outside world */
+        // Expose module API to the outside world
         window.moduleControllerHelper = window.moduleControllerHelper || self;
     }
 )();

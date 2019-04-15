@@ -4,14 +4,14 @@
  * Module that delivers data for the view.
  * The goal is to make this module self-responsible for retrieving data from a database.
  *
- * 
+ *
  * Author: Łukasz Dąbrowski
  * Title : Software Engineer
- * 
+ *
  * (c) C4B Solutions / C4B Software
  *
  * License: MIT (http://www.opensource.org/licenses/mit-license.php)
- */
+*/
 
 (function (window) {
 
@@ -91,7 +91,7 @@
 
                 /**
                  * Local helper functions
-                 */
+                */
                 function getLastModified_I_1L() {
                     // convert document's lastModified to Date object
                     var d = new Date(document.lastModified);
@@ -102,8 +102,8 @@
 
 
                     /**
-                     * Local helper functions 
-                     */
+                     * Local helper functions
+                    */
                     function getMonthName_I_2L(monthNumber) {
                         if (monthNumber === 0)
                             return "January";
@@ -140,7 +140,7 @@
 
                 /**
                  * Local helper functions
-                 */
+                */
                 function getFullYear_I_1L() {
                     var d = new Date();
 
@@ -182,6 +182,6 @@
 
 
 
-    /* Expose module API to the outside world */
+    // Expose module API to the outside world
     window.moduleModel = window.moduleModel || self;
 })(window);
