@@ -27,6 +27,15 @@
 	position: relative;
 }
 
+.open_source:hover {
+	color: #0062AF;
+
+	cursor: pointer;
+
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
 .four {
 	font-size: 2em;
 }

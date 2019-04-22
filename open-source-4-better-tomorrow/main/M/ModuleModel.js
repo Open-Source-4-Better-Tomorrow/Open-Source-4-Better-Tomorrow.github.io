@@ -71,6 +71,8 @@
 
             _projectDescriptionRedirectionUrl: "/open-source-4-better-tomorrow/project_description/V/View.html",
 
+            _GitHub_repo_RedirectionUrl:  "https://github.com/Open-Source-4-Better-Tomorrow?tab=repositories",
+
             _C4B_Solutions_RedirectionUrl: "https://c4b.solutions",
 
             _downloadCode_RedirectionUrl: "https://github.com/Open-Source-4-Better-Tomorrow/Open-Source-4-Better-Tomorrow.github.io/archive/master.zip",

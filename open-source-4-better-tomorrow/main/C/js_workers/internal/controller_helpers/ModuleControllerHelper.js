@@ -116,7 +116,14 @@
                         handleClick_I_1L(event);
                     });
 
+                    setupGoToGitHubRepoAnimation_I_3L();
+
                     setupGoToC4BSolutionsAnimation_I_3L();
+
+                    // go directly to GitHub repo
+                    $('.open_source').click(function() {
+                        goToGitHubRepo_I_3L();
+                    });
 
                     // go back to C4B Solutions
                     $('.idea_powered_by').click(function () {
@@ -163,6 +170,24 @@
                         }, 500);
                     }
 
+                    function setupGoToGitHubRepoAnimation_I_3L() {
+                        customHoverAnimationAPI.GET_HOVER_OBJECT.Factory.HoverAnimationObject.createNewInstance(
+                            '.open_source',
+                            7000,
+                            600,
+                            function onHoverIn() {
+                                $('.open_source').css('color', '#0062AF');
+                                $('.open_source').css('cursor', 'pointer');
+                                $('.open_source').css('text-decoration', 'underline');
+                                $('.open_source').css('text-decoration-color', 'yellow');
+                            },
+                            function onHoverOut() {
+                                $('.open_source').css('color', '#ffffff');
+                                $('.open_source').css('text-decoration', 'none');
+                            }
+                        ).Functions.startAnimation();
+                    }
+
                     function setupGoToC4BSolutionsAnimation_I_3L() {
                         customHoverAnimationAPI.GET_HOVER_OBJECT.Factory.HoverAnimationObject.createNewInstance(
                             '.idea_powered_by',
@@ -178,6 +203,10 @@
                                 $('.idea_powered_by').css('text-decoration', 'underline');
                             }
                         ).Functions.startAnimation();
+                    }
+
+                    function goToGitHubRepo_I_3L() {
+                        window.open(_moduleModel.GET.Variables._GitHub_repo_RedirectionUrl, '_blank');
                     }
 
                     function goToC4BSolutions_I_3L() {
