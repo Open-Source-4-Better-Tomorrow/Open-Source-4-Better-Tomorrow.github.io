@@ -1,4 +1,0 @@
-{
-    "isFile" : true,
-    "storageLocation" : "/open-source-4-better-tomorrow/main/M/data/dynamic_data/main_storage.txt"
-}

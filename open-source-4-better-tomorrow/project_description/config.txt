@@ -1,4 +1,0 @@
-{
-    "isFile" : true,
-    "storageLocation" : "/open-source-4-better-tomorrow/project_description/M/data/dynamic_data/upload/"
-}
