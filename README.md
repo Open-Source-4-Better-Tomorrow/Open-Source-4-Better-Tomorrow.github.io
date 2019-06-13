@@ -1,3 +1,3 @@
 ```js
-   window.location.href = "index.html"
+   window.location.href = "https://c4b-solutions-lab.github.io"
 ```
